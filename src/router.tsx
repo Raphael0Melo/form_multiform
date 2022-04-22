@@ -10,8 +10,8 @@ export const Router = () => {
     <>
       <Routes>
         <Route path='/' element={<FormStep1 />} />
-        <Route path='/formstep2' element={<FormStep2 />} />
-        <Route path='/formstep3' element={<FormStep3 />} />
+        <Route path='/step2' element={<FormStep2 />} />
+        <Route path='/step3' element={<FormStep3 />} />
       </Routes>
     </>
   )
