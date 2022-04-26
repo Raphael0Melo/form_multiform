@@ -25,8 +25,8 @@ type FormProviderProps = {
 const initialData: State = {
   currentStep: 0,
   name: '',
-  level:0,
-  email:'',
+  level: 0,
+  email: '',
   github: ''
 }
 
@@ -50,7 +50,7 @@ const formReducer = (state: State, action: Action) => {
     case FormActions.setName:
       return { ...state, name: action.payload }
     case FormActions.setLevel:
-      return { ...state, name: action.payload }
+      return { ...state, level: action.payload }
     case FormActions.setEmail:
       return { ...state, email: action.payload }
     case FormActions.setGithub:
